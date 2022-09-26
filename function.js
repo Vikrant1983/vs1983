@@ -9,7 +9,11 @@
 let name1=prompt("whom do you love??");
 
 function namaste(name){
-    return("\""+name+"\" also loves you soo much.");
+    if(name1=="Vikrant"){
+    return("\""+name+"\" also loves you soo much.")}
+    else{
+        return("thappad!!!")
+    }
 }
 let namaste1= namaste(name1);
 document.write(namaste1);
